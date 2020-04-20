@@ -1,0 +1,311 @@
+
+a {
+    color: #000;
+  }
+  .menu li a
+  {
+    text-decoration: none;
+    color:white;
+    font-size: 11px;
+    font-weight: bold;
+    
+  }
+  header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #2d2e33;
+  
+   
+  }
+  
+  header ul a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+  }
+  
+  
+  /*header nav*/
+  
+  header nav img {
+    float: left;
+    display: block;
+    width: 180px;
+    padding: 10px 30px;
+  }
+  header .profile {
+    float: right;
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 30px;
+  }
+  
+  header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+  }
+  
+  header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    left: 5px;
+    transition: background 0.2s ease-out;
+  }
+  
+  header .menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    top: 5px;
+  }
+  
+  header .menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    top: -5px;
+  }
+  
+  header .menu-btn {
+    display: none;
+  }
+  
+  header .menu-btn:checked ~ .menu {
+    max-height: 100%;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+  header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  /*nav ul ul {
+    transition: .5s;
+  }*/
+  
+  /*BY UMER*/
+  
+  .menu .toggle + a {
+    display: none;
+  }
+  .sub-menu h3 {
+    display: none;
+  }
+  .menu li i,
+  .menu li br {
+    display: none;
+  }
+  
+  .toggle {
+    display: block;
+    color: #fff;
+    padding: 20px;
+  }
+  .toggle:hover {
+    background-color: #131313;
+  }
+  
+  .toggle,
+  [id^="drop"] {
+    display: none;
+  }
+  .label {
+    display: block;
+  }
+  
+  [id^="drop"]:checked + ul {
+    display: block;
+  }
+  nav ul ul {
+    display: none;
+  }
+  header nav ul ul li a {
+    text-decoration: none;
+    background-color: #131313;
+  }
+  header nav ul ul li a:hover {
+    text-decoration: none;
+    background-color: #ef6c20;
+  }
+  .mycard {
+    background-color: white;
+    border-radius: 10px;
+  
+    box-shadow: 0 0 6px #eeeded;
+  }
+  
+  @media (min-width: 48em) {
+    .toggle,
+    [id^="label"] {
+      display: none;
+    }
+  
+   table .fa-pencil {
+      margin-right: -20px;
+      margin-left: 20px;
+    }
+    .space
+    {
+      margin-top: 30px;
+    }
+    .menu .fa {
+      color: white;
+      font-size: 23px;
+      text-align: center;
+    }
+    .menu .toggle + a {
+      display: block;
+    }
+    [id^="drop"]:checked + ul {
+      display: none;
+    }
+  
+    .menu li i,
+    .menu li br {
+      display: block;
+    }
+  
+    header li a {
+      text-align: center;
+    }
+   
+    .menu li:hover {
+      text-decoration: none;
+      border-right: 5px solid white;
+      
+    }
+    .sub-menu li:hover {
+      border-right: none;
+    }
+   
+  
+  
+  
+    header .menu {
+      position: fixed;
+      width: 100px;
+      height: 100%;
+      max-height: none;
+    }
+  
+    header .menu-icon {
+      display: none;
+    }
+    nav .logo {
+      margin-left: 80px;
+    }
+  
+    header nav ul li:hover > .sub-menu {
+      width: 180px;
+      background-color: #121419;
+      position: fixed;
+      display: inline-block;
+      height: 100%;
+      transition:.5s;
+      top: 0;
+      left: 99px;
+    }
+  
+    .menu .sub-menu {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      width: 80%;
+    }
+    .sub-menu li a {
+      font-size: 12px;
+      background-color: #25262b;
+      padding: 10px;
+      text-align: left;
+      margin: 10px 20px 10px 20px;
+      color: #848588;
+      border-right: none;
+      border-radius: 5px;
+    }
+    .sub-menu h3 {
+      display: block;
+      margin: 30px 0;
+      margin-left: 30px;
+      color: #fff;
+    }
+    header nav ul ul li a {
+      border: none;
+      background-color: #2d2e33;
+    }
+    header nav ul ul li a:hover {
+      border: none;
+      background-color: #ef6c20;
+      color: #fff;
+    }
+    /*header:hover .logo{
+  margin-left: 260px;
+  }
+  */
+  .product 
+  {
+    .btn{
+      margin-left: -50px;
+    }
+  }
+  
+  
+  }
+  
+
+
+
+  .sub-menu
+{
+  h3
+  {
+    font-weight: lighter;
+  }
+ 
+}
+
+.menu .fa
+{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}

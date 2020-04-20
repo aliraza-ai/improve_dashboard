@@ -1,0 +1,242 @@
+// Profile css
+.header nav .profile ul {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.header nav .profile ul li {
+  display: inline-block;
+  margin-left: 8px;
+  
+  padding: 0;
+}
+.header nav .profile ul li a {
+  border: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+}
+.header nav .profile ul li a:hover {
+  text-decoration: none;
+}
+
+.header nav .profile .name {
+  margin-top: -20px;
+  text-decoration: none;
+}
+.header nav .profile .profile-img img {
+
+  padding: 0;
+  width: 20px;
+}
+.overlay {
+  position: fixed;
+  z-index: 100;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.profile-popup {
+  .popup {
+    text-align: left;
+    padding: 20px 0px;
+    background: #fff;
+    width: 280px;
+    position: absolute;
+    top: 1px;
+    font-weight: 500;
+    right: 50px;
+    border-radius: 10px;
+  }
+  .fa {
+    font-size: 25px;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  :hover {
+    color: #06d85f;
+  }
+  .my-content {
+    max-height: 30%;
+    ul {
+      color: #000;
+      background-color: #fff;
+      li {
+        list-style: none;
+        margin: 0;
+        padding: 10px 0;
+        a {
+          border: none;
+          color: #000;
+          text-decoration: none;
+          text-align: left;
+          i {
+            margin-right: 8px;
+            color: #ef6d21;
+          }
+        }
+      }
+    }
+  }
+}
+
+.rightside {
+  .popup2 {
+    padding: 20px;
+    background: #fff;
+    width: 280px;
+    position: absolute;
+    right: 0;
+    overflow-x: hidden;
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    :hover {
+      color: #06d85f;
+    }
+    .m-content {
+      max-height: 30%;
+      overflow: auto;
+      ul {
+        color: #000;
+        background-color: #fff;
+        li {
+          list-style: none;
+          a {
+            border: none;
+            color: #000;
+            text-decoration: none;
+            text-align: left;
+            i {
+              margin-right: 8px;
+              color: #ef6d21;
+            }
+          }
+        }
+      }
+      .btn {
+        margin-top: 70px;
+        margin-bottom: 20px;
+      }
+      .btnoverview {
+        background-color: #ef6d21;
+        border: none;
+        font-size: 11px;
+        padding: 10px 23px;
+        border-radius: 5px;
+        color: white;
+      }
+      .btnsale {
+        background-color: #f7f7f7;
+        border: none;
+        font-size: 11px;
+        padding: 10px 23px;
+        border-radius: 5px;
+        color: #bdbdbd;
+      }
+      .fa-refresh {
+        margin-left: 70px;
+      }
+      .fa-angle-down {
+        margin-left: 10px;
+      }
+      .textborder {
+        background-color: #f7f7f7;
+        color: #bdbdbd;
+        padding: 10px;
+        font-size: 12px;
+      }
+      .chat {
+        .fa-refresh {
+          margin-left: 140px;
+        }
+      }
+      .activity {
+        background-color: #f7f7f7;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        .fa-pencil {
+          background-color: transparent;
+          padding: 0;
+          margin: 0;
+        }
+        .fa {
+          color: #ef6d21;
+          height: 100%;
+          padding: 20px;
+          font-size: 24px;
+          text-align: center;
+          top: 0;
+        }
+
+        .title {
+          margin-left: 50px;
+          margin-top: -55px;
+          padding: 0;
+          font-size: 14px;
+        }
+        .text-con {
+          color: #ef6d21;
+          font-size: 16px;
+        }
+        .time {
+          color: #a2a2a2;
+          margin-left: 140px;
+          padding: 18px;
+          font-size: 12px;
+        }
+      }
+      .chat-list {
+        ul {
+          margin-top: 20px;
+          li {
+            a {
+              // padding: 12px;
+            }
+            img {
+              margin-left: -25px;
+              padding: 10px 0;
+              width: 40px;
+            }
+            .title {
+              margin-left: -90px;
+              padding: 10px 0;
+              .text-con {
+                color: #ef6d21;
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

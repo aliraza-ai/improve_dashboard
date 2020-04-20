@@ -1,0 +1,101 @@
+
+.product-table
+{
+
+    margin-top: 40px;
+    display: block;
+    .hh
+    {
+    padding: 15px;
+    padding-left:60px;
+    padding-right:60px;
+    }
+    .fa
+    {
+      font-size: 10px;
+      font-weight: lighter;
+    }
+    .heading
+    {
+      font-size: 30px;
+      color: $organColor;
+      font-weight: lighter;
+    }
+    button{
+      margin-top: 12px;
+    }
+    table
+    {
+      margin-top: 16px;
+      font-weight: bold;
+      font-size: 12px;
+      justify-items: center;
+      justify-content: center;
+      
+      td span {
+      
+          color: #fff;
+          background-color: #2dce98;
+          border-radius: 50%;
+          padding: 5px 10px;
+      }
+
+      th
+      {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .first td
+      {
+        border: none;
+        
+      }
+      td
+      {
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+      }
+      .fa-check
+      {
+        color:$greenColor;
+        font-size: 18px;
+      }
+
+      .fa-pencil {
+        font-size: 13px;
+
+        color: #fff;
+        background-color: #f15a29;
+        border-radius: 50%;
+        padding: 6px 6px;
+      }
+      .fa-trash {
+        font-size: 13px;
+        color: #fff;
+        background-color: #e01313;
+        border-radius: 50%;
+        padding: 6px 8px;
+      }
+      img
+      {
+        width: 40px;
+        height: 30px;
+      }
+      
+      
+    
+   
+    }
+    table thead th,
+    table tfoot .foothead {
+      color: #b8b8b8;
+      border: none;
+      background-color: #fbfbfb;
+    }
+    
+
+
+
+
+}

@@ -1,0 +1,315 @@
+.common
+{
+    h2
+    {
+        color:$organColor;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 23px;
+       
+    }
+    .colorred
+    {
+        color:#E01313;
+    }
+   
+    select 
+    {
+    font-weight: bold;
+    font-size: 9px;
+    height: 35px;
+    border: 1.5px solid #D7D7D7;
+    }
+    option
+    {
+    font-size: 9px;
+    font-weight: bold;
+    }
+    .input
+    {
+        font-weight: bold;
+        font-size: 9px;
+        height: 35px;
+        border: 1.5px solid #D7D7D7;
+    }
+    .borderGreen
+    {
+        border: 1.5px solid #2DCE98;
+    }
+    .borderorgan
+    {
+        border: 1.5px solid $organColor;
+    }
+    .h3
+    {
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    .h2
+    {
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+    input[type=checkbox] + label {
+        display: inline;
+        margin: 0.2em;
+        cursor: pointer;
+        padding: 0.6em;
+        
+        font-weight:bold;
+        font-size: 12px;
+      }
+      
+      input[type=checkbox] {
+        display: none;
+      }
+      
+      input[type=checkbox] + label:before {
+        content: "\2714";
+        border: 0.1em solid #EF6D21;
+        border-radius: 0.2em;
+        display: inline-block;
+        width: 1.6em;
+        height: 1em;
+        font-size: 11px;
+        font-weight: bold;
+        padding-left: 0.3em;
+        padding-bottom: 1.4em;
+        margin-right: 0.4em;
+        padding-right: 0.4em;
+       vertical-align:bottom;
+        color: transparent;
+        transition: .2s;
+      }
+      
+      input[type=checkbox] + label:active:before {
+        transform: scale(0);
+      }
+      
+      input[type=checkbox]:checked + label:before {
+        background-color: #EEFFF9;
+        border-color: #2DCE98;
+        color: green;
+      }
+      
+      input[type=checkbox]:disabled + label:before {
+        transform: scale(1);
+        border-color: #aaa;
+      }
+      
+      input[type=checkbox]:checked:disabled + label:before {
+        transform: scale(1);
+        background-color: white;
+        border-color: silver;
+      }
+
+      textarea
+      {
+          resize: none;
+      }
+      
+}
+.order-change-date
+{
+
+
+    
+
+
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    
+    h6
+    {
+        color:#6A6A6A;
+        font-size: 9px;
+        font-weight: bold;
+        margin-top: 10PX;
+    }
+    .h6
+    {
+        margin-top: 25px;
+    }
+   
+}
+
+.order-cats
+{
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+    
+    .h3
+    {
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    .fa-trash {
+        font-size: 19px;
+        margin-left: -10px;
+        color: #E01313;
+        margin-bottom: 12px;
+        background-color: white;
+        border: 1.5px solid #E01313;
+        border-radius: 2px;
+        padding: 6px 8px;
+      }
+}
+
+
+.content
+{
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+
+  button
+  {
+    background-color: white;
+    color: #BBBBBB;
+    border: 1px solid #D7D7D7;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+    .active
+    {
+        border: 1px solid #EF6D21;
+        background-color: white;
+        color: #EF6D21;
+        border-radius: 3px;
+    }
+
+}
+
+.varients
+{
+    .mycheck
+    {
+        margin-top: 10px;
+    
+    }
+    .m1
+    {
+        margin-right: -20px;
+    }
+    .end, .end tr,.end td
+    {
+        border: none;
+    }
+
+    .col
+    {
+       
+        padding: 20px 50px;
+        padding-top: 30px;
+    }
+
+}
+
+.picture
+{
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    
+
+    .insert-img
+    {
+        border: 2px dotted $organColor;
+        padding: 10px 20px;
+        background-color: #FFFCF9;
+        text-align: center;
+        font-size: 9px;
+    }
+   
+    .img
+    {
+        margin-top: 40px;
+        margin-left: -20px;
+        text-align: center;
+        width: 155px;
+        .heading
+        {
+
+           
+            
+            border: 1px solid silver;
+            margin-bottom: 2px;
+            padding: 6px 0;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+
+            .fa
+            {
+                color:red;
+                font-size: 8px;
+               
+            }
+
+            button{
+                font-size: 6px;
+                color: white;
+                background-color: $greenColor;
+                border: none;
+                font-weight: 500;
+                border-radius: 2px;
+            }
+           
+        }
+        img
+        {
+            width: 155px;
+        }
+        
+    }
+
+}
+
+
+.google
+{
+    margin-left: -11px;
+    margin-right: -18px;
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+    .h3
+    {
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    .space
+    {
+        height: 38%;
+    }
+}
+
+.seo
+{
+    margin-left: 11px;
+    padding: 20px 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    .h3
+    {
+        color: #6A6A6A;
+        font-weight: 500;
+    }
+    textarea
+    {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+

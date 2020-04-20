@@ -1,0 +1,656 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="custom/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="custom/main.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="custom/main.css" />
+    <script src="custom/menu.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="img/logo.png" />
+        <div class="profile">
+          <ul>
+            <li>
+              <a href="#" class="comment"
+                ><i class="fa fa-comment-o" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="notif"><i class="fa fa-bell-o"></i></a>
+            </li>
+            <li class="profile-img">
+              <a class="profile-img" href="#popup2"
+                ><img src="img/profile.png"
+              /></a>
+            </li>
+            <li class="name"><a href="#popup1"> Anna Doe</a></li>
+          </ul>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="nav-icon"></span
+        ></label>
+        <ul class="menu">
+          <div class="space"></div>
+          <li>
+            <label for="drop-1" class="toggle label">ORDERS +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ><br />ORDERS</a
+            >
+            <input type="checkbox" id="drop-1" />
+            <ul class="sub-menu width-control">
+              <h3>ORDERS</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="drop-2" class="toggle label">SALES +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-percent" aria-hidden="true"></i><br />SALES</a
+            >
+            <input type="checkbox" id="drop-2" />
+            <ul class="sub-menu width-control">
+              <h3>SALES</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="drop-3" class="toggle label">CATALOG +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-usd" aria-hidden="true"></i><br />CATALOG</a
+            >
+            <input type="checkbox" id="drop-3" />
+            <ul class="sub-menu width-control">
+              <h3>CATALOG</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+              <li><a href="#">VARIANTS</a></li>
+              <li><a href="#">PROPERTIES</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-star" aria-hidden="true"></i><br />SERVICES</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+              ><br />WEBSHOP</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-cog" aria-hidden="true"></i><br />SETTINGS</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+  <!-- Body Content Here !!! -->
+    <div class="main-content container">
+      <section class="order-change">
+       
+        <div class="row">
+          <div class="col"><div class="main-heading">Product Modify</div></div><div class="col"><div class="pull-right"><button class="btnprimary">SAVE</button> <button class="simplebtn">CANCEL</button></div></div>
+       </div>
+
+       <div class="row mycard order-change-date common">
+          <div class="col-md-8">
+              <h2>General Data</h2>
+              <div class="row">
+                  <div class="col-md-6">
+                    <h3>BREND <span class="colorred">*</span></h3>
+                    <select class="form-control bordergreen">
+                      <option>NOBAL COLLECTION</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <h3>SUPLIER</h3>
+                    <select class="form-control">
+                      <option>NOBAL COLLECTION</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="h3">NAME <span class="colorred">*</span></h3>
+                  <input type="text" class="form-control input" value="Cho changs pvc toverstaf met 3d boekenlegger">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="h3">PRODUCT TYPE <span class="colorred">*</span></h3>
+                <select class="form-control">
+                  <option>STANDARD</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3">ARTICAL NUMBER</span></h3>
+                <input type="text" class="form-control input" value="NN64">
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3">EAN CODE</h3>
+                <input type="text" class="form-control input" value="34234236467">
+              </div>
+             </div>
+             <h2 class="h2">Price</h2>
+             <div class="row">
+              <div class="col-md-4">
+                <h3 class="h3">SALE PRICE <span class="colorred">*</span></h3>
+                <select class="form-control">
+                  <option>STANDARD</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3">PURCHASE PRICE</span></h3>
+                <input type="text" class="form-control input" value="NN64">
+              </div>
+              <div class="col-md-4">
+                <h3 class="h3">BTW</h3>
+                <input type="text" class="form-control input" value="34234236467">
+              </div>
+             </div>
+             <h2 class="h3">Order</h2>
+             <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control input" value="0.0000">
+                </div>
+                <div class="col-md-8">
+                    <p class="mycheck">
+                      <input type="checkbox"  id="t1" checked/>
+                      <label for="t1"> Active, Show in Webshop</label>
+                    </p>
+                    <p class="mycheck">
+                      <input type="checkbox"  id="t2"/>
+                      <label for="t2"> Mark As New</label>
+                    </p>
+                </div>
+             </div>
+
+              
+          </div>
+          <div class="col-md-4">
+              <h2>Offer</h2>
+              <p class="mycheck">
+                <input type="checkbox"  id="t3"/>
+                <label for="t3"> Active Offer</label>
+              </p>
+              <p class="mycheck">
+                <input type="checkbox"  id="t4"/>
+                <label for="t4"> Exclusion from Category Offer</label>
+              </p><BR>
+              <h2>Stock Data</h2>
+              <p class="mycheck">
+                <input type="checkbox"  id="t5"/ checked>
+                <label for="t5"> Keep Stock of this Product</label>
+              </p>
+              <p class="mycheck">
+                <input type="checkbox"  id="t6"/>
+                <label for="t6"> Negative Stock Not Allowed</label>
+              </p>
+              <h6>REPORT TO NO STOCK</h6>
+              <select class="form-control bordergreen">
+                <option>EXPECTED DILVERY 5 DAYS</option>
+              </select>
+              <h6>REPORT TO NO STOCK</h6>
+              <input  type="text" value="los angeles, california" class="form-control input borderorgan" >
+              <h2 class="h2">Stock Data</h2>
+              <h6 class="h6">STOCK EXPECTED TO</h6>
+              <input  type="date" class="form-control input borderGreen" >
+          </div>
+       </div>
+
+
+       <div class="row mycard order-cats common">
+          <div class="col-md-6">
+            <h2>Categories</h2>
+            <div class="row">
+              <div class="col-md-10">
+                <h3 class="h3">SEARCH FOR CATAGERIES</h3>
+                <input type="text" class="form-control input" value="Harry Potter Character Wands">
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-md-10">
+              <h3 class="h3" class="h3">SELECT GATAGERIES </h3>
+              <div class="row">
+                <div class="col-md-10">
+                  <input type="text" class="form-control input" value="Harry Potter Character Wands">
+                </div>
+                <div class="col-md-1">
+                    <a href="#"><i class="fa fa-trash"></i></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <input type="text" class="form-control input" value="Harry Potter Character Wands">
+                </div>
+                <div class="col-md-1">
+                    <a href="#"><i class="fa fa-trash"></i></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10">
+                  <input type="text" class="form-control input" value="Harry Potter ">
+                </div>
+                <div class="col-md-1">
+                    <a href="#"><i class="fa fa-trash"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+           </div>
+          </div>
+          <div class="col-md-5">
+            <h2>Product Properties</h2>
+            <div class="row">
+              <div class="col-md-9">
+                <h3 class="h3">HAPPY PORTER HOUSE</h3>
+                <select class="form-control">
+                  <option>- select an option -</option>
+                </select>
+              </div>
+            </div>
+          </div>
+       </div>
+
+        <!----Content Area-->
+       <div class="row mycard common content">
+          <div class="col-md-12">
+              <h2>Product Content</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="h3">SEARCH FOR CATAGERIES</h3>
+                  <input type="text" class="form-control input" value="cho changes pvc character wands 3d">
+                </div>
+                <div class="col-md-6">
+                  <h3 class="h3">CHOOSE LANGAUGE</h3>
+                  <div class="row">
+                    <div class="col-md-3"><button class="active">ENGLISH</button></div>
+                    <div class="col-md-3"><button>DUTCH</button></div>
+                    <div class="col-md-3"><button>ARABIC</button></div>
+                    <div class="col-md-3"><button>FRENCH</button></div>
+                  </div>
+                </div>
+             </div>
+             <div class="row">
+              <div class="col-md-12">
+                <h3 class="h3">PRODUCT DESCRIPTION</h3>
+                <textarea rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </textarea>
+              </div>
+             </div>
+          </div>
+       </div>
+
+       <!----Variants-->
+       <div class="row mycard varients common">
+          <div class="col"><h2>VARIENTS</h2></div> <div class="col pull-right text-lg-right"><button class="btnprimary">ADD VARIENTS</button></div>
+
+        <div class="table-responsive">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th>COLOR</th>
+                      <th>CODE</th>
+                      <th>BARCODE NUMBER</th>
+                      <th>EXTRA CAST</th>
+                      <th>STANDARD</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="first">
+                    <td><p class="mycheck m1">
+                      <input type="checkbox"  id="s1" checked/>
+                      <label for="s1"></label>
+                    </p></td>
+                      <td><input class="form-control input" type="text" value="NHI8744"></td>
+                      <td><input class="form-control input" type="text" value="Harry Potter Quiz 2020"></td>
+                      <td><input class="form-control input" type="number" value="2"></td>
+                      <td><input class="form-control input" type="number" value="2"></td>
+                      <td><p class="mycheck">
+                        <input type="checkbox"  id="s2" checked/>
+                        <label for="s2"></label>
+                      </p></td>
+                      
+                  </tr> 
+                  <tr class="first end">
+                    <td><p class="mycheck m1">
+                      <input type="checkbox"  id="s3" />
+                      <label for="s3"></label>
+                    </p></td>
+                      <td><input class="form-control input" type="text" value="NHI8744"></td>
+                      <td><input class="form-control input" type="text" value="Harry Potter Quiz 2020"></td>
+                      <td><input class="form-control input" type="number" value="2"></td>
+                      <td><input class="form-control input" type="number" value="2"></td>
+                      <td><p class="mycheck">
+                        <input type="checkbox"  id="s4" checked/>
+                        <label for="s4"></label>
+                      </p></td>
+                      
+                  </tr> 
+              </tbody>
+          </table>
+      </div>
+      
+       </div><br>
+
+
+       <!----Picture Area-->
+       <div class="row mycard picture common">
+          <div class="col-md-12">
+            <h2>Picture</h2>
+              <div class="row">
+                  <div class="col-md-5">
+                    <div class="insert-img">
+                      <h6>CLICK HERE TO DOWNLOAD</h6>
+                      <P>OR DRAG HERE TO UPLOAD IMAGE</P>
+                    </div>
+                  </div>
+                  <div class="col-md-7"></div>
+              </div>
+
+              <div class="row">
+                  <div class="col">
+                      <div class="img">
+                        <div class="heading">
+                          <div class="col text-left"><button>PRIMARY</button></div><div class="col"></div>
+                        </div>
+                        <img src="img/b1.png" class="fluid-img">
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="img">
+                      <div class="heading">
+                        <div class="col text-right"><i class="fa fa-times"></i></div><div class="col"></div>
+                      </div>
+                      <img src="img/b1.png" class="fluid-img">
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="img">
+                    <div class="heading">
+                      <div class="col text-right"><i class="fa fa-times"></i></div><div class="col"></div>
+                    </div>
+                    <img src="img/b1.png" class="fluid-img">
+                  </div>
+              </div>
+              <div class="col">
+                <div class="img">
+                  <div class="heading">
+                    <div class="col text-right"><i class="fa fa-times"></i></div><div class="col"></div>
+                  </div>
+                  <img src="img/b1.png" class="fluid-img">
+                </div>
+            </div>
+            <div class="col">
+              <div class="img">
+                <div class="heading">
+                  <div class="col text-right"><i class="fa fa-times"></i></div><div class="col"></div>
+                </div>
+                <img src="img/b1.png" class="fluid-img">
+              </div>
+              </div>
+              </div>
+
+
+          </div>
+
+       </div>
+
+        <!----Google SEO Area-->
+        <div class="row common">
+          <div class="col-md-7">
+              <div class="col-md-12 mycard google">
+                  <h2>Google Merchant</h2>
+                  <p class="mycheck">
+                    <input type="checkbox"  id="s5"/>
+                    <label for="s5">Add Product to Google Merchant</label>
+                  </p>
+                   <div class="row">
+                    <div class="col-md-12">
+                      <h3 class="h3">SHIPING GROUP ID</h3>
+                      <input type="text" class="form-control input" value="MOK FLOMINGO">
+                    </div>
+                   </div>
+                   <div class="row">
+                    <div class="col-md-12">
+                      <h3 class="h3">SHIPING CATAGORY</h3>
+                      <select class="form-control">
+                        <option>-SELECT AN CATAGROY-</option>
+                      </select>
+                    </div>
+                   </div>
+                   <div class="space"></div>
+              </div>
+          </div>
+          <div class="col-md-5">
+            <div class="col-md-12 mycard seo">
+              <h2>SEO Optimization</h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="h3">SEO / META TITLE <span class="colorred">*</span></h3>
+                  <input type="text" class="form-control input" value="MOK FLOMINGO">
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-md-12">
+                  <h3 class="h3">SEO URL <span class="colorred">*</span></h3>
+                  <input type="text" class="form-control input" value="MOK FLOMINGO">
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-md-12">
+                  <h3 class="h3">SEO META DESCRIPTIOM <span class="colorred">*</span></h3>
+                  <div>
+                  <textarea rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</textarea>
+                </div>
+                </div>
+               </div>
+               <br>
+               <p class="mycheck">
+                <input type="checkbox"  id="s8" checked/>
+                <label for="s8">Index Product</label>
+              </p>
+              <p class="mycheck">
+                <input type="checkbox"  id="s9"/>
+                <label for="s9">Product Findable</label>
+              </p>
+          </div>
+          </div>
+        </div>
+        
+<!-- Profile Popup -->
+<div class="profile-popup">
+<div id="popup1"  class="overlay">
+  <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <div class="my-content">
+          <ul>
+              <li><a href="#"><i class="fa fa-user"></i> MY PROFILE</a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i> MY ORDERS</a></li>
+              <li><a href="#"><i class="fa fa-shopping-bag"></i> MY PRODUCTS</a></li>
+              <li><a href="#"><i class="fa fa-pie-chart"></i> STATISTICS</a></li>
+              <li><a href="#"><i class="fa fa-cog"></i> SETTINGS</a></li>
+              <li><a href="#"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
+          </ul>
+      </div>
+  </div>
+</div>
+</div>
+<!-- side pop up -->
+<div class="rightside">
+  <div id="popup2" class="overlay">
+    <div class="container">
+    <div class="popup2">
+        <a class="close" href="#">&times;</a>
+        <div class="m-content">
+            <div class="btn"><button class="btnoverview">OVERVIEW</button>&nbsp; &nbsp;  
+                <button class="btnsale">SALES</button>
+            </div>
+            
+            <div class="textborder">
+                <span>RECENT ACTIVITES</span>
+                <i class="fa fa-refresh"></i>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="activity">
+                <div class="sign"><i class="fa fa-usd"></i>
+                    <div class="title">
+                        <span>NEW SALE ($15)</span><br>
+                        <span class="text-con">Product Template</span><br>
+                        
+                    </div>
+                </div>
+                    <div class="time">
+                        <span>3 min ago</span>
+                    </div>
+            </div>
+            <div class="activity">
+                <div class="sign"><i class="fa fa-pencil"></i>
+                    <div class="title">
+                        <span>YOU EDIT THE FILE</span><br>
+                        <span class="text-con">Document.doc</span><br>
+                        
+                    </div>
+                </div>
+                    <div class="time">
+                        <span>15 min ago</span>
+                    </div>
+            </div>
+            <div class="activity">
+                <div class="sign">
+                    <i class="fa fa-ban"></i>
+                    <div class="title">
+                        <span>PRODUCT DELETED</span><br>
+                        <span class="text-con">Pillow Cover</span><br>
+                    </div>
+                </div>
+                    <div class="time">
+                        <span>3 min ago</span>
+                    </div>
+            </div>
+            <div class="textborder chat">
+                <span>CHAT</span>
+                <i class="fa fa-refresh"></i>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="chat-list">
+                <ul>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user1.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">TODD SCOTT</span><br>
+                            <span>Web Developer</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user2.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">ALAN SMITH</span><br>
+                            <span>Designer</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user3.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">WILLIAM JOHN<</span><br>
+                            <span>Copywritter</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user4.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">MICHELL</span><br>
+                            <span>Web Developer</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user5.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">JAMES SCOTT</span><br>
+                            <span>SEO</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                    <li><a href="#">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <img src="img/user6.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="title">
+                            <span  class="text-con">JACOB</span><br>
+                            <span>DEVELOPER</span>
+                          </div>
+                        </div>
+                      </div> 
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+</div>
+              
+
+
+      </section>
+    </div>
+  </body>
+</html>

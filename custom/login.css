@@ -1,0 +1,83 @@
+body {
+  background-image: url("./../img/bg.jpg");
+  background-size: cover;
+  background-position: cover cover;
+  background-repeat: no-repeat;
+  margin-top: 8%;
+  margin-bottom: 7%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body .card {
+  margin: auto;
+  width: 360.57px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+}
+
+body .card h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #131212;
+  padding: 10px;
+}
+
+body .card h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body .card .alert {
+  padding: 5px;
+  font-size: 8px;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+body .card .alert div {
+  text-align: left;
+  margin-left: 15px;
+}
+
+body .card .forgot {
+  text-align: left;
+  font-size: 12px;
+  color: #F56F2D;
+}
+
+body .card .bt {
+  background-image: url("./../img/btn.svg");
+  width: 70.35px;
+  background-repeat: no-repeat;
+  height: 39.04px;
+  border: none;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 12px;
+  color: white;
+}
+
+body .card .alertheading {
+  float: left;
+}
+
+body .card .cross {
+  float: right;
+  margin-right: 10px;
+}
+
+body .card .clear {
+  clear: both;
+}
+
+body .card textarea:hover, body .card input:hover, body .card textarea:active, body .card input:active, body .card textarea:focus, body .card input:focus {
+  outline: 0px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px #F56F2D solid;
+}
+/*# sourceMappingURL=login.css.map */

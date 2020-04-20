@@ -1,0 +1,592 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="custom/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="custom/main.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="custom/main.css" />
+    <script src="custom/menu.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img class="logo" src="img/logo.png" />
+        <div class="profile">
+          <ul>
+            <li>
+              <a href="#" class="comment"
+                ><i class="fa fa-comment-o" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="notif"><i class="fa fa-bell-o"></i></a>
+            </li>
+            <li class="profile-img">
+              <a class="profile-img" href="#popup2"
+                ><img src="img/profile.png"
+              /></a>
+            </li>
+            <li class="name"><a href="#popup1"> Anna Doe</a></li>
+          </ul>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="nav-icon"></span
+        ></label>
+        <ul class="menu">
+          <div class="space"></div>
+          <li>
+            <label for="drop-1" class="toggle label">ORDERS +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ><br />ORDERS</a
+            >
+            <input type="checkbox" id="drop-1" />
+            <ul class="sub-menu width-control">
+              <h3>ORDERS</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="drop-2" class="toggle label">SALES +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-percent" aria-hidden="true"></i><br />SALES</a
+            >
+            <input type="checkbox" id="drop-2" />
+            <ul class="sub-menu width-control">
+              <h3>SALES</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="drop-3" class="toggle label">CATALOG +</label>
+            <a href="#" class="width-control"
+              ><i class="fa fa-usd" aria-hidden="true"></i><br />CATALOG</a
+            >
+            <input type="checkbox" id="drop-3" />
+            <ul class="sub-menu width-control">
+              <h3>CATALOG</h3>
+              <li><a href="#">PRODUCT MODIFY</a></li>
+              <li><a href="#">CATEGORIES</a></li>
+              <li><a href="#">BRANDS</a></li>
+              <li><a href="#">VARIANTS</a></li>
+              <li><a href="#">PROPERTIES</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-star" aria-hidden="true"></i><br />SERVICES</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+              ><br />WEBSHOP</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-cog" aria-hidden="true"></i><br />SETTINGS</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Body Content Here !!! -->
+    <div class="main-content container">
+      <section class="order">
+        <div class="main-heading">Order# CN21393</div>
+        <div class="row">
+          <div class="col-md-9 mycard mycard1">
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Delivery Address</h2>
+                <h3>ROBERT KAS</h3>
+                <p>
+                  Zwaluwensingel 13<br />
+                  2961CV Groot Ammers<br />
+                  Netherland
+                </p>
+                <h2>Contact Details</h2>
+                <div class="email">robert@inprovo.nl</div>
+                <h2>Delivey Method</h2>
+                <h3>DIGITAL PRODUCT</h3>
+              </div>
+              <div class="col-md-4">
+                <h2>Billing Address</h2>
+                <h3>ROBERT KAS</h3>
+                <p>
+                  Zwaluwensingel 13<br />
+                  2961CV Groot Ammers<br />
+                  Netherland
+                </p>
+                <h2>Comments</h2>
+                <b class="comments">NO COMMENTS</b>
+              </div>
+              <div class="col-md-4">
+                <h2>Order Details</h2>
+                <h4>NUMBER:<b> CGS74744</b></h4>
+                <h4>DATE:<b> REB 20TH,12:00</b></h4>
+                <h4>STATUS:<span> COMPLETED</span></h4>
+                <h2>Payment Details</h2>
+                <h4>FROM:<b> MOBILE</b></h4>
+                <h4>METHOD:<b> IDEAL</b></h4>
+                <h4>STATUS:<span> COMPLETED</span></h4>
+              </div>
+            </div>
+            <br />
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-12">
+                <button class="btnprimary">
+                  <a class="changecolor" href="#comment"
+                    ><i class="fa fa-comment-o" aria-hidden="true"></i> Add
+                    comment</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="row btn1">
+              <div class="col-md-6">
+                <button class="simplebtn">
+                  <i class="fa fa-pencil" aria-hidden="true"></i> EDIT
+                </button>
+              </div>
+              <div class="col-md-6">
+                <button class="simplebtn">CANCEL</button>
+              </div>
+            </div>
+            <div class="space"></div>
+            <div class="row btn1">
+              <div class="col-md-6">
+                <button class="simplebtn">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i> SLIP
+                </button>
+              </div>
+              <div class="col-md-6">
+                <button class="simplebtn">
+                  <i class="fa fa-list-alt" aria-hidden="true"></i> INVOICE
+                </button>
+              </div>
+            </div>
+            <div class="row btn1">
+              <div class="col-md-12">
+                <button class="simplebtn lf">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;
+                  ADDRESS LABEL
+                </button>
+              </div>
+            </div>
+            <div class="row btn1">
+              <div class="col-md-12">
+                <button class="simplebtn lf">
+                  <i class="fa fa-tag" aria-hidden="true"></i> &nbsp; PACKET
+                  LABEL
+                </button>
+              </div>
+            </div>
+            <div class="row btn1">
+              <div class="col-md-12">
+                <button class="btnprimary lf">
+                  <i class="fa fa-inbox"></i> &nbsp; PACKED
+                </button>
+              </div>
+            </div>
+            <div class="row btn1">
+              <div class="col-md-12">
+                <button class="btnprimary lf red">
+                  CANCEL
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mycard order-list">
+          <h2 class="mycard1">Products</h2>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th class="t">PRODUCT</th>
+                  <th>NUMBER</th>
+                  <th>PRICE</th>
+                  <th></th>
+                  <th>BTW</th>
+                  <th>SUBTOTAL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="first">
+                  <td></td>
+                  <td>Harry Potter Quiz 2020</td>
+                  <td>2</td>
+                  <td><span>€</span></td>
+                  <td>9.99</td>
+                  <td>21%</td>
+                  <td>€10.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="offset-lg-9 col-lg-3 tablecart">
+            <table>
+              <tr>
+                <td class="left">Subtotal:</td>
+                <td>€10.00</td>
+              </tr>
+              <tr>
+                <td class="left">Shipping Cost:</td>
+                <td>€00.00</td>
+              </tr>
+              <tr>
+                <td class="left">Total excl. BTW:</td>
+                <td>€9.50</td>
+              </tr>
+              <tr>
+                <td class="left">21% BTW Hoog:</td>
+                <td>€2.00</td>
+              </tr>
+              <tr>
+                <td class="left"><b>Total:</b></td>
+                <td><b>€20.00</b></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="row order-last">
+          <div class="col-md-6 left">
+            <div class="mycard">
+              <h2 class="mycard1">Order Process</h2>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>DATE</th>
+                      <th>ORDER</th>
+                      <th>COMMENTS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="first">
+                      <td></td>
+                      <td>
+                        <h6 class="date">20/12/2020</h6>
+                        <span class="time">12:00</span>
+                      </td>
+                      <td>
+                        <h6 class="date colorgrean">Order Placed</h6>
+                        <span class="time">12:00</span>
+                      </td>
+                      <td><div class="comments">No Comments</div></td>
+                    </tr>
+                    <tr class="first">
+                      <td></td>
+                      <td>
+                        <h6 class="date">20/12/2020</h6>
+                        <span class="time">12:00</span>
+                      </td>
+                      <td>
+                        <h6 class="date colorred">MAIL-ORDER-NEW-FAILD</h6>
+                        <span class="time">SYSTEM</span>
+                      </td>
+                      <td><div class="comments">No Comments</div></td>
+                    </tr>
+                    <tr class="first">
+                      <td></td>
+                      <td>
+                        <h6 class="date">20/12/2020</h6>
+                        <span class="time">12:00</span>
+                      </td>
+                      <td>
+                        <h6 class="date colorgrean">MAIL-ORDER-NEW-FAILD</h6>
+                        <span class="time">SYSTEM</span>
+                      </td>
+                      <td>
+                        <div class="comments">Amount: <b>€9.90</b></div>
+                      </td>
+                    </tr>
+                    <tr class="">
+                      <td></td>
+                      <td>
+                        <h6 class="date">20/12/2020</h6>
+                        <span class="time">12:00</span>
+                      </td>
+                      <td>
+                        <h6 class="date colorgrean">MAIL-ORDER-NEW-FAILD</h6>
+                        <span class="time">SYSTEM</span>
+                      </td>
+                      <td><div class="comments">No Comments</div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <br /><br />
+            </div>
+          </div>
+          <div class="col-md-6 right">
+            <div class="mycard">
+              <h2 class="mycard1">Comments</h2>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr class="tr">
+                      <th>DOOR</th>
+                      <th>COMMENTS</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <p>No One Commented Yet</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 l2">
+                <div class="mycard">
+                  <h2 class="mycard1">Payments</h2>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th class="t">DATE</th>
+                          <th>PROVIDER</th>
+                          <th>METHOD</th>
+                          <th>AMOUNT</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody class="tt">
+                        <tr class="first">
+                          <td></td>
+                          <td>
+                            <h6 class="date">20/12/2020</h6>
+                            <span class="time">12:00</span>
+                          </td>
+                          <td>MOBILE</td>
+                          <td>IDEAL</td>
+                          <td>€9.0</td>
+                          <td><span class="paid">PAID</span></td>
+                        </tr>
+                        <tr class="">
+                          <td></td>
+                          <td>
+                            <h6 class="date">20/12/2020</h6>
+                            <span class="time">12:00</span>
+                          </td>
+                          <td>MOBILE</td>
+                          <td>IDEAL</td>
+                          <td>€9.0</td>
+                          <td><span class="paid">PAID</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br /><br /><br />
+          </div>
+        </div>
+
+        <div id="comment" class="comment-overlay">
+          <div class="comment-popup">
+            <a class="close" href="#">&times;</a>
+            <div class="comment-content">
+              <h3>COMMENTS</h3>
+              <span>ADD COMMENTS</span>
+              <textarea cols="30" rows="5"></textarea>
+              <button class="btnprimary btnsave">SAVE</button>
+            </div>
+          </div>
+        </div>
+       <!-- Profile Popup -->
+<div class="profile-popup">
+  <div id="popup1"  class="overlay">
+    <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="my-content">
+            <ul>
+                <li><a href="#"><i class="fa fa-user"></i> MY PROFILE</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i> MY ORDERS</a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> MY PRODUCTS</a></li>
+                <li><a href="#"><i class="fa fa-pie-chart"></i> STATISTICS</a></li>
+                <li><a href="#"><i class="fa fa-cog"></i> SETTINGS</a></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i> LOGOUT</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- side pop up -->
+  <div class="rightside">
+    <div id="popup2" class="overlay">
+      <div class="container">
+      <div class="popup2">
+          <a class="close" href="#">&times;</a>
+          <div class="m-content">
+              <div class="btn"><button class="btnoverview">OVERVIEW</button>&nbsp; &nbsp;  
+                  <button class="btnsale">SALES</button>
+              </div>
+              
+              <div class="textborder">
+                  <span>RECENT ACTIVITES</span>
+                  <i class="fa fa-refresh"></i>
+                  <i class="fa fa-angle-down"></i>
+              </div>
+              <div class="activity">
+                  <div class="sign"><i class="fa fa-usd"></i>
+                      <div class="title">
+                          <span>NEW SALE ($15)</span><br>
+                          <span class="text-con">Product Template</span><br>
+                          
+                      </div>
+                  </div>
+                      <div class="time">
+                          <span>3 min ago</span>
+                      </div>
+              </div>
+              <div class="activity">
+                  <div class="sign"><i class="fa fa-pencil"></i>
+                      <div class="title">
+                          <span>YOU EDIT THE FILE</span><br>
+                          <span class="text-con">Document.doc</span><br>
+                          
+                      </div>
+                  </div>
+                      <div class="time">
+                          <span>15 min ago</span>
+                      </div>
+              </div>
+              <div class="activity">
+                  <div class="sign">
+                      <i class="fa fa-ban"></i>
+                      <div class="title">
+                          <span>PRODUCT DELETED</span><br>
+                          <span class="text-con">Pillow Cover</span><br>
+                      </div>
+                  </div>
+                      <div class="time">
+                          <span>3 min ago</span>
+                      </div>
+              </div>
+              <div class="textborder chat">
+                  <span>CHAT</span>
+                  <i class="fa fa-refresh"></i>
+                  <i class="fa fa-angle-down"></i>
+              </div>
+              <div class="chat-list">
+                  <ul>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user1.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">TODD SCOTT</span><br>
+                              <span>Web Developer</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user2.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">ALAN SMITH</span><br>
+                              <span>Designer</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user3.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">WILLIAM JOHN<</span><br>
+                              <span>Copywritter</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user4.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">MICHELL</span><br>
+                              <span>Web Developer</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user5.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">JAMES SCOTT</span><br>
+                              <span>SEO</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                      <li><a href="#">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="img/user6.png" alt="">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="title">
+                              <span  class="text-con">JACOB</span><br>
+                              <span>DEVELOPER</span>
+                            </div>
+                          </div>
+                        </div> 
+                        </a>
+                      </li>
+                  </ul>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+           
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+$defaultBackGround: #f7fbff;
+$organColor: #ef6d21;
+$greenColor: #2dce98;
+$silverColor: #858585;
+$redColor: #e01313;
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+  Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+body {
+  margin: 0;
+  font-family: $font;
+  background-color: #f7fbff;
+  overflow-x: hidden;
+}
+.btnprimary {
+  background-color: $greenColor;
+  border: none;
+  font-size: 11px;
+  padding: 10px 23px;
+  border-radius: 5px;
+  color: white;
+}
+
+input {
+  border: 1px solid #d7d7d7;
+}
+.form-control:focus {
+  border-color: #a3a0a0;
+  box-shadow: none;
+}
+.green-border {
+  border-color: $greenColor;
+}
+.main-content {
+  margin-top: 100px;
+  section {
+    position: relative;
+    justify-content: center;
+    margin-left: 3%;
+    width: 85%;
+  }
+}
+
+// Included Navbar
+@import "_nav.scss";
+@import "_order.scss";
+
+.product {
+  margin-left: 0px;
+  margin-top: 40px;
+  padding: 15px;
+  display: block;
+
+  h6 {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .product-modify {
+    font-weight: bold;
+    color: #bbbbbb;
+  }
+  select {
+    font-weight: bold;
+    font-size: 10px;
+    height: 39px;
+  }
+  option {
+    font-size: 12px;
+  }
+  .btnprimary {
+    background-color: $greenColor;
+    border: none;
+    font-size: 11px;
+    padding: 10px 23px;
+    border-radius: 5px;
+    color: white;
+
+    .fa {
+      font-size: 10px;
+      font-weight: lighter;
+    }
+  }
+  .btnreset {
+    background-color: #fbfbfb;
+    border: 1px solid #d7d7d7;
+    font-size: 11px;
+    padding: 9px 23px;
+    border-radius: 5px;
+    color: $organColor;
+  }
+}
+@import "_modal.scss";
+
+@import "_product.scss";
+@import "_order-change.scss";
+@import "_product-modify.scss";

@@ -1,0 +1,96 @@
+$loginBackground:url("./../img/bg.jpg");
+$loginFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body
+{
+    background-image: $loginBackground;
+    background-size: cover;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    font-family: $loginFont;
+
+    .card
+    {
+        margin: auto;
+        width: 360.57px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 40px;
+        
+       h1
+        {
+            font-family: $loginFont;
+            font-size: 30px;
+            font-weight: normal;
+            color: #131212;
+            padding: 10px;
+        }
+
+        h3{
+            font-size: 15px;
+            font-weight: normal;
+        }
+
+        .alert
+        {
+            padding: 5px;
+            font-size: 8px;
+            margin-top: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+
+            div
+            {
+                text-align: left;
+                margin-left: 15px;
+            
+            }
+        }
+
+        .forgot
+        {
+            text-align: left;
+            font-size: 12px;
+            color: #F56F2D;
+        }
+        .bt
+        {
+            background-image: url("./../img/btn.svg");
+            width: 70.35px;
+            background-repeat: no-repeat;
+            height: 39.04px;
+            border: none;
+         
+            font-weight: bold;
+            margin-top: 30px;
+            font-size: 12px;
+            color: white;
+        }
+        .alertheading{
+            float: left;
+        }
+        .cross
+        {
+            float: right;
+            margin-right: 10px;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus
+        {
+            outline: 0px;
+            -webkit-appearance:none;
+            box-shadow: none;
+            border: 1px #F56F2D solid;
+        }
+        
+
+
+    }
+
+    
+
+}
