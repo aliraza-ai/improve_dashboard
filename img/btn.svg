@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.346" height="39.039" viewBox="0 0 118.346 64.039">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="1.724" y1="-0.622" x2="-0.088" y2="1.162" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f15a29"/>
-      <stop offset="1" stop-color="#ffa335"/>
-    </linearGradient>
-  </defs>
-  <rect id="Layer" class="cls-1" width="118.346" height="64.039" rx="10"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.346" height="39.039" viewBox="0 0 118.346 64.039"><defs><style>.cls-1{fill:url(#linear-gradient)}</style><linearGradient id="linear-gradient" x1="1.724" x2="-.088" y1="-.622" y2="1.162" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f15a29"/><stop offset="1" stop-color="#ffa335"/></linearGradient></defs><rect id="Layer" width="118.346" height="64.039" class="cls-1" rx="10"/></svg>
